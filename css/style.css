@@ -84,6 +84,14 @@ ul {
   line-height: 100%;
 }
 
+.menu-item {
+  transition: color 1s ease-in-out;
+}
+
+.menu-item:hover {
+  color: #FF6464;
+}
+
 /* hero */
 .hero {
   padding-top: 140px;
@@ -117,4 +125,74 @@ ul {
   font-size: 20px;
   font-weight: 700;
   line-height: 100%;
+  transition: all .3s ease-in-out;
+}
+
+.hero-text a:hover {
+  background-color: #00A8CC;
+  color: #21243D;
+}
+
+/* featured */
+.featured {
+  padding-block: 60px;
+}
+
+.featured h2 {
+  margin: 0 0 30px;
+  font-size: 22px;
+  line-height: 1.4;
+}
+.featured article {
+  display: flex;
+  gap: 18px;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.featured article:not(:last-child) {
+  margin-bottom: 31px;
+}
+
+.featured article:nth-child(2) {
+  padding-bottom: 15px;
+}
+
+.featured article:nth-child(3) {
+  padding-bottom: 35px;
+}
+
+.featured article:last-child {
+  padding-bottom: 32px;
+}
+
+.featured article h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.featured article P {
+  margin-bottom: 0;
+  margin-top: 22px;
+}
+
+.featured article img {
+  display: block;
+}
+
+/* footer */
+.footer {
+  margin-top: 23px;
+  padding-top: 51px;
+  padding-bottom: 54px;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+
+.footer p {
+  text-align: center;
+  margin: 26px 0 0;
 }
