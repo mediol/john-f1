@@ -1,0 +1,120 @@
+/* heebo-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/heebo-v28-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* heebo-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/heebo-v28-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* heebo-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/heebo-v28-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 16px;
+    color: #21243D;
+}
+
+.container {
+  width: 100%;
+  max-width: 858px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.view-all {
+    color: #00A8CC;
+}
+
+.project-date {
+    padding: 4px 10px;
+    border-radius: 16px;
+    background-color: #142850;
+    font-size: 18px;
+    color: white;
+}
+
+#recent-posts {
+    background-color: #EDF7FA;
+}
+
+/* header */
+.header {
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
+
+.header .menu {
+  display: flex;
+  justify-content: flex-end;
+  gap: 33px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+/* hero */
+.hero {
+  padding-top: 140px;
+  padding-bottom: 70px;
+}
+
+.hero .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-text {
+  width: 506px;
+}
+
+.hero-text h1 {
+  font-size: 44px;
+  line-height: 60px;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.hero-text a {
+  display: block;
+  width: max-content;
+  padding: 17px 20px;
+  border-radius: 2px;
+  background-color: #FF6464;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 100%;
+}
